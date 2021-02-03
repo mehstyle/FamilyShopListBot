@@ -2,7 +2,7 @@ import telebot
 import sqlite3
 
 try:
-    connect = sqlite3.connect('shoppinglists.bd')
+    connect = sqlite3.connect('shoppinglists1.bd')
     bd_cursor_obj = connect.cursor()
 except FileNotFoundError:
     connect.close()
